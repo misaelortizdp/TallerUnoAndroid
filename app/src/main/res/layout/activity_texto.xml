@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TextoActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/convertirtexto"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edttexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/escribatexto"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checknegrita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/negrita"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkItalica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/italica"
+        android:textStyle="italic"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkSubrayada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/subrayada"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtresuTex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/convertir"
+        android:textSize="18sp" />
+</LinearLayout>

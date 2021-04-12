@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sexo">
+        <item>@string/Selecciona</item>
+        <item>@string/masculino</item>
+        <item>@string/femenino</item>
+        <item>@string/otro</item>
+    </string-array>
+
+    <string-array name ="resistencias">
+        <item>@string/Selecciona</item>
+        <item>@string/dosr</item>
+        <item>@string/tresr</item>
+
+    </string-array>
+
+    <string-array name ="tipo_calculo">
+        <item>@string/Selecciona</item>
+        <item>@string/cuadrante</item>
+        <item>@string/pendiente</item>
+        <item>Distancia</item>
+
+    </string-array>
+</resources>
